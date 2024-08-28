@@ -42,7 +42,8 @@ body{
     padding: 10px 20px;
     color: white;
     background-color: #E55473;
-    border: none;border-radius: 5px;
+    border: none;
+    border-radius: 5px;
     margin-top: 20px;
 }
 .banner-img-container{
@@ -95,7 +96,7 @@ body{
 .feature-img h4{
     text-align: center;
     padding: 15px 0;
-    color: black;
+    color: rgb(39, 39, 39);
 }
 #first{
     background-color: #A7216226;
@@ -105,4 +106,161 @@ body{
 }
 #third{
     background-color: #477D1126;
+}
+
+
+.card-container{
+    max-width: 1440px;
+    margin: 80px auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 50px 0;
+}
+.card-1{
+    text-align: center;
+}
+.card-1 p{
+    color: rgba(39, 39, 39, 0.8);
+    padding-top: 20px;
+}
+
+
+.discount-container{
+    max-width: 1440px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #e5547325;
+    
+}
+.discount{
+    display: flex;
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.discount-content{
+    text-align: center;
+    width: 50%;
+
+}
+.discount-content h3{
+    font-size: 2rem;
+    padding-bottom: 20px;
+    color: rgb(39, 39, 39);
+}
+.discount-content p{
+    color: rgba(39, 39, 39, 0.8);
+    padding-bottom: 20px;
+}
+.discount-content button{
+    padding: 10px 20px;
+    color: white;
+    background-color: #E55473;
+    border: none;
+    border-radius: 5px;
+}
+.discount img{
+    height: 300px;
+}
+.special{
+    color: #e40838b9;;
+}
+
+
+.instagram{
+    width: 90%;
+    margin: 50px auto;
+}
+.instagram-img{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    
+
+}
+.instagram-img img{
+    width: 250px;
+    height: 300px;
+    border: 1px dashed #bebabacc;;
+}
+
+
+.deals{
+   text-align: center;
+   width: 1060px;
+   border-radius: 5px;
+   height: 300px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-image: url('./Flower Asset/Rectangle 9.png');
+}
+.deals-container{
+    max-width: 1440px;
+    margin: 0 auto;
+   
+}
+.deals h3{
+    font-size: 2rem;
+    padding-bottom: 5px;
+    color: rgb(39, 39, 39);
+}
+.deals p{
+    color: rgba(39, 39, 39, 0.8);
+    padding-bottom: 30px;
+}
+.deals input{
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.deals button{
+    padding: 12px 20px;
+    margin-left: 5px;
+    color: white;
+    background-color: #E55473;
+    border: none;
+    border-radius: 5px;
+}
+
+
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 80px;
+    text-align: center;
+    margin-top: 80px;
+}
+footer h2{
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+footer p{
+    font-size: .8rem;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+footer h6{
+    color: rgb(39, 39, 39);
+    font-size: .7rem;
 }
